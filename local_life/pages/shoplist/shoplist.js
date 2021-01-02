@@ -23,7 +23,7 @@ Page({
     this.getShopList()
   },
   // 以分页的形式获取商铺列表数据的方法
-  getShopList(){
+  getShopList(cb){
     this.setData({
       isloading: true
     })
@@ -49,7 +49,8 @@ Page({
         // 隐藏 loading 效果
         wx.hideLoading()
         this.setData({isloading: false})
-        wx.stopPullDownRefresh()
+        // wx.stopPullDownRefresh()
+        cb && cb()
       }
     })
   },
@@ -94,7 +95,9 @@ Page({
       total: 0
     })
     // 重新发数据请求
-    this.getShopList()
+    this.getShopList(() => {
+      wx.stopPullDownRefresh()
+    })
   },
 
   /**

@@ -1,0 +1,16 @@
+function splitPhone(str) {
+  if(str.length !==11) return str
+
+  var arr = str.split('')
+  console.log(arr)
+  arr.splice(3,0,'-')
+  
+  arr.splice(8,0,'-')
+  // console.log(arr);
+
+  return arr.join('')
+}
+
+module.exports = {
+  splitPhone: splitPhone
+}
