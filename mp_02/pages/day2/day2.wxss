@@ -1,0 +1,20 @@
+/* pages/day2/day2.wxss */
+
+.main {
+  /* 触发了bfc */
+  overflow: hidden;
+  /* height: 375rpx; */
+}
+.one, .two {
+  width: 375rpx;
+  height: 175rpx;
+  float: left;
+  margin-bottom: 5rpx;
+}
+.one{
+  background-color: red;
+  
+}
+.two {
+  background-color: thistle;
+}

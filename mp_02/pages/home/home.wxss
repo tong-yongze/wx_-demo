@@ -1,0 +1,8 @@
+/* pages/home/home.wxss */
+view input {
+  border: 1rpx solid #cccccc
+}
+.box {
+  height: 2000rpx;
+  background-color: lightblue;
+}

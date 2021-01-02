@@ -1,0 +1,21 @@
+<!-- <view>
+  <view>{{inputvalue}}</view>
+  <input value="{{inputvalue}}" bindinput="fn"></input> 
+</view> -->
+
+<view class="main">
+  <view class="one"></view>
+  <view class="two"></view>
+</view>
+<view class="main">
+  <view class="one"></view>
+  <view class="two"></view>
+</view>
+<view class="main">
+  <view class="one"></view>
+  <view class="two"></view>
+</view>
+<view class="main">
+  <view class="one"></view>
+  <view class="two"></view>
+</view>

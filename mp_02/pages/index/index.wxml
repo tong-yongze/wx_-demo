@@ -1,0 +1,23 @@
+<!-- <view>{{info}}</view>
+<view>{{Num1 > 5 ? '大于或者等于5' : '小于5'}}</view>
+<view>{{Num2 * 100}}</view>
+<button type="primary" bindtap="btnHandle">按钮</button>
+
+<button type="primary" bindtap="btnHandle">按钮</button>
+<button type="primary" bindtap="CountChange">+1</button>
+<button type="primary" bindtap="btnTap2" data-info="{{3}}">+2</button>-->
+<input value="{{msg}}" bindinput="inputHandler"></input> 
+
+<!-- <block wx:if="{{false}}">
+  <view>view1</view>
+  <view>view2</view>
+</block> -->
+<navigator url="/pages/day2/day2">跳转到day2页面</navigator>
+<!-- <view hidden="{{flag}}">为true 控制显示和隐藏</view> -->
+<view wx:for="{{arr1}}" wx:key="index">
+  索引是：{{index}}  当前项是{{item}}
+</view>
+
+<navigator open-type='navigateBack' delta='1'>
+返回上一页
+</navigator>  
