@@ -1,0 +1,22 @@
+.box view {
+  width: 100PX;
+  height: 100PX;
+  text-align: center;
+  line-height: 100px;
+}
+.box view:nth-child(1){
+  background-color: lawngreen;
+}
+.box view:nth-child(2){
+  background-color: pink;
+}
+.box view:nth-child(3){
+  background-color: red;
+}
+.box {
+  /* display: flex;
+  justify-content: space-around; */
+  border: 1px solid red;
+  width: 120px;
+  height: 120px;
+}

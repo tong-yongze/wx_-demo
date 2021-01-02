@@ -1,0 +1,7 @@
+<scroll-view class="box" scroll-x>
+  <view>A</view>
+  <view>B</view>
+  <view>C</view>
+</scroll-view>
+<navigator url="../index/index">跳转</navigator>
+
