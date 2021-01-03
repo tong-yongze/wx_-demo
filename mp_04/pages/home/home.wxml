@@ -1,0 +1,19 @@
+<!--pages/home/home.wxml-->
+<!-- <text class="g-red-text">pages/home/home.wxml</text>
+
+<view></view>
+<my-test1 max="3"></my-test1> -->
+
+<!-- <my-test2></my-test2> -->
+<!-- <my-test3></my-test3> -->
+<!-- <my-test4>
+  <view slot="after">这是通过插槽填充的</view>
+  <view slot="before">~~~~~</view>
+</my-test4> -->
+
+<my-test5 count="{{count}}" bind:sync="syncCount" class="customA" id="cA"></my-test5> 
+
+<view>~~~~~~~~</view>
+
+<view>父组件中。count值为：{{count}}</view>
+<button bindtap="getChild">获取子组件得实例对象</button>

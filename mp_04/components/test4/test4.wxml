@@ -1,0 +1,6 @@
+<view>
+  <slot name="before"></slot>
+  <view>这是组件的内部结构</view>
+  <slot name="after"></slot>
+</view>
+
